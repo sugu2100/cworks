@@ -25,9 +25,5 @@ int main() {
     printf("%c학점 입니다.\n", ch);
 
 
-
-
-
-
     return 0;
 }

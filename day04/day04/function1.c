@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void sayHello(); //프로토타입<자료형 함수이름()>
-void sayHello2(char[]);
+void sayHello2(char[]); //프로토타입<자료형 함수이름(자료형)>
 int main() {
 
     sayHello();  //함수 호출

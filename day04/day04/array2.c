@@ -6,7 +6,7 @@ int main() {
     int sum = 0;
 
     //30을 출력
-    printf("arr[2] = %d\n", arr[2]);
+    printf("arr[2] = %d\n", arr[2]);  
 
     //전체 출력
     for (i = 0; i < 4; i++) {

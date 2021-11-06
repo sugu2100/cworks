@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+/*#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
 
@@ -13,7 +13,7 @@ struct Student {
 int main() {
 	struct Student s1;  //객체 변수(힙 영역 사용)
 	s1.number = 101;
-	//s1.name = "강하늘";
+	//s1.name = "강하늘"; 
 	strcpy(s1.name, "강하늘");
 	s1.weight = 62.3;
 
@@ -23,6 +23,8 @@ int main() {
 	strcpy(s2.name, "김기용");
 	s2.weight = 55.5;
 
+	struct Student s3 = { 103, "이우주", 73.5 };
+
 	printf("학번 : %d\n", s1.number);
 	printf("이름 : %s\n", s1.name);
 	printf("몸무게 : %3.1lf\n", s1.weight);
@@ -31,5 +33,9 @@ int main() {
 	printf("이름 : %s\n", s2.name);
 	printf("몸무게 : %3.1lf\n", s2.weight);
 
+	printf("학번 : %d\n", s3.number);
+	printf("이름 : %s\n", s3.name);
+	printf("몸무게 : %3.1lf\n", s3.weight);
+
 	return 0;
-}
+}*/

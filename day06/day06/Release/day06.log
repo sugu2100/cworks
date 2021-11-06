@@ -1,0 +1,13 @@
+﻿findmax_pointer.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+malloc_ex.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+malloc_ex2.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+malloc_ex3.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+malloc_getname.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+memory_field.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+score_main.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+struct_eyesight.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+struct_ref.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+struct_three_d.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+swapbyref.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+typedef_three_d.obj : error LNK2005: _main이(가) circle_main.obj에 이미 정의되어 있습니다.
+C:\devC\day06\Release\day06.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

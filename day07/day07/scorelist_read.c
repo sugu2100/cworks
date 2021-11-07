@@ -25,9 +25,10 @@ int main() {
         &kor, &eng, &math) != EOF) {
         tot = kor + eng + math;
         fprintf(fout, "%3d %s %3d %3d %3d %5d %3.1lf\n", 
-            no, name, kor, eng, math, tot, (float)tot/3); //파일에 쓰기
+            no, name, kor, eng, math, tot, (float)tot/3);
+
         fprintf(stdout, "%3d %s %3d %3d %3d %5d %3.1lf\n", 
-            no, name, kor, eng, math, tot, (float)tot/3); //모니터에 쓰기
+            no, name, kor, eng, math, tot, (float)tot/3); 
     }
 
     fclose(fp);

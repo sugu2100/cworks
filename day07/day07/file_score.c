@@ -1,4 +1,4 @@
-/*#include <stdio.h>
+#include <stdio.h>
 
 int main() {
 
@@ -8,8 +8,8 @@ int main() {
 
     printf("이름 입력 : ");
     fscanf_s(stdin, "%s", name, sizeof(name));  
-    //stdin은 포인터(주소)로 버퍼를 가리키며 운영체제가 제공하는 스트림(stream)
-    //키보드로 입력
+    //stdin은 포인터(주소)로 버퍼를 가리키며 
+    //운영체제가 제공하는 스트림(stream), 키보드로 입력
 
     printf("국어 점수 입력 : ");
     fscanf_s(stdin, "%d", &kor);
@@ -25,10 +25,12 @@ int main() {
         puts("파일을 생성할 수 없습니다.\n");
         return -1;
     }
-    fprintf(fp, "%s %d %d %d\n", name, kor, eng, math); //파일에 쓰기
-    fprintf(stdout, "%s %d %d %d\n", name, kor, eng, math); //모니터에 쓰기
+    //파일에 쓰기
+    fprintf(fp, "%s %d %d %d\n", name, kor, eng, math); 
+    //모니터에 쓰기
+    fprintf(stdout, "%s %d %d %d\n", name, kor, eng, math); 
 
     fclose(fp);
 
     return 0;
-}*/
+}

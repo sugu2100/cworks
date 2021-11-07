@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main() {
 
@@ -24,10 +24,10 @@ int main() {
     while (fscanf_s(fp, "%d %s %d %d %d", &no, name, sizeof(name),
         &kor, &eng, &math) != EOF) {
         tot = kor + eng + math;
-        fprintf(fout, "%3d %s %3d %3d %3d %5d %3.1lf\n", 
+        fprintf(fout, "%3d %s %3d %3d %4d %4d %5.1lf\n", 
             no, name, kor, eng, math, tot, (float)tot/3);
 
-        fprintf(stdout, "%3d %s %3d %3d %3d %5d %3.1lf\n", 
+        fprintf(stdout, "%3d %s %3d %3d %4d %4d %5.1lf\n", 
             no, name, kor, eng, math, tot, (float)tot/3); 
     }
 
@@ -35,4 +35,4 @@ int main() {
     fclose(fout);
 
     return 0;
-}
+}*/

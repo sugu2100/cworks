@@ -148,10 +148,14 @@
     <ClCompile Include="file_input.c" />
     <ClCompile Include="file_output.c" />
     <ClCompile Include="file_score.c" />
+    <ClCompile Include="file_scorelist.c" />
     <ClCompile Include="if_endif.c" />
     <ClCompile Include="macro_ex1.c" />
     <ClCompile Include="macro_ex2.c" />
     <ClCompile Include="message_main.c" />
+    <ClCompile Include="scorelist_calc.c" />
+    <ClCompile Include="scorelist_read.c" />
+    <ClCompile Include="score_read.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="message.h" />
